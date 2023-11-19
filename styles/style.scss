@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+
 $gold: #BE9A58;
 $black: #141413;
 $white: #ffff;
 
-body {
+* {
     margin: 0;
+}
+
+body {
     background-color:$black;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 main {
@@ -16,6 +22,7 @@ main {
        .card {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             text-align: center;
             width: 330px;
             height: 530px;
@@ -28,4 +35,22 @@ main {
                     border-radius: 8px;
                 }
         }
+}
+
+// Text //
+
+h1 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #332c1e;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    font-weight: 500;
+    color: hsl(31, 21%, 46%);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
 }
