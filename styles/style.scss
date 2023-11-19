@@ -14,8 +14,18 @@ main {
     transform: translate(-50%, -50%);
 
        .card {
-            width: 315px;
-            height: 500px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 330px;
+            height: 530px;
             background-color: $white;
+            border-radius: 1rem;
+
+                img {
+                    margin-top: 17px;
+                    height: 300px;
+                    border-radius: 8px;
+                }
         }
 }
