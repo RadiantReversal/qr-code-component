@@ -1,0 +1,21 @@
+$gold: #BE9A58;
+$black: #141413;
+$white: #ffff;
+
+body {
+    margin: 0;
+    background-color:$black;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+       .card {
+            width: 315px;
+            height: 500px;
+            background-color: $white;
+        }
+}
