@@ -20,7 +20,7 @@ main .card {
   flex-wrap: wrap;
   text-align: center;
   width: 330px;
-  height: 530px;
+  height: 520px;
   background-color: white;
   border-radius: 1rem;
 }
@@ -44,4 +44,21 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 25px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: smaller;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+footer a:hover {
+  color: #BE9A58;
 }/*# sourceMappingURL=style.css.map */
